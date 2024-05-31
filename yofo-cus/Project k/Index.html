@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+    <title>Document</title>
+</head>
+<body>
+    
+    <br>
+    <br>
+    <div class="boxes">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+    </div>	
+         
+    
+        <div class="cont">
+            <div class="imgdiv">
+            <img src="jb.jpg" class="img1"> <br>
+            <img src="facebbok.png" class="img2"> <br>
+            <img src="twitter.png" class="img3"> <br>
+            <img src="linkedin.jpg" class="img4"> <br>
+            </div>
+            <div class="form sign-in">
+                <h2>Welcome to our Website</h2>
+                <label>
+                    <br>
+                
+                    <input type="email" />
+                    <span><b><i>Your Email</i></b></span>
+                </label>
+                <label>
+                    
+                    <input type="password" />
+                    <span><b><i>Enter Password</i></b></span>
+                </label>
+                <br><br>
+                <p class="forgot-pass">Forgot password?</p>
+                <button type="button" class="submit">Log In</button>
+             
+            </div>
+            <div class="sub-cont">
+                <div class="img">
+                    <div class="img__text m--up">
+                     
+                        <h3>Don't have an account?<h3>
+                    </div>
+                    <div class="img__text m--in">
+                    
+                        <h3>Already have an account?<h3>
+                    </div>
+                    <div class="img__btn">
+                        <span class="m--up">Sign Up</span>
+                        <span class="m--in">Log In</span>
+                    </div>
+                </div>
+                <div class="form sign-up">
+                    <div class="imgdiv2">
+                    <img src="jb.jpg" class="img5"> <br>
+            <img src="facebbok.png" class="img6"> <br>
+            <img src="twitter.png" class="img7"> <br>
+            <img src="linkedin.jpg" class="img8"> <br>
+        </div>
+                    <h2>Create your Account</h2>
+                    <label>
+                        
+                        <input type="text" />
+                        <span><b><i>Your Name</i></b></span>
+                    </label>
+                    <label>
+                        
+                        <input type="email" />
+                        <span><b><i>Enter your Email</i></b></span>
+                    </label>
+                    <label>
+                        
+                        <input type="password" />
+                        <span><b><i>Insert Password</i></b></span>
+                    </label>
+                    <label>
+                        
+                        <input type="password" />
+                        <span><b><i>Confirm Password</i></b></span>
+                    </label>
+                    <label>
+                        
+                        <input type="tel" maxlength="11"/>
+                        <span><b><i>Mobile no</i></b></span>
+                    </label>
+                    <button type="button" class="submit">Sign Up</button>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+    
+        <script>
+            document.querySelector('.img__btn').addEventListener('click', function() {
+                document.querySelector('.cont').classList.toggle('s--signup');
+            });
+        </script>
+
+</body>
+</html>
